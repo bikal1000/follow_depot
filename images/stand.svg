@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="599.956px" height="695.716px" viewBox="0 0 599.956 695.716" enable-background="new 0 0 599.956 695.716"
+	 xml:space="preserve">
+<g>
+	<defs>
+		<rect id="SVGID_1_" width="599.956" height="695.716"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	<path clip-path="url(#SVGID_2_)" fill="#4a9afd" d="M0,299.329c0,103.119,80.213,186.713,179.16,186.713
+		s179.159-83.594,179.159-186.713S278.107,112.616,179.16,112.616S0,196.21,0,299.329"/>
+	
+		<path clip-path="url(#SVGID_2_)" fill="none" stroke="#107bfd" stroke-width="12.197" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M184.259,688.533V242.75V688.533z"/>
+	<path clip-path="url(#SVGID_2_)" fill="#0eb4fe" d="M387.084,244.399c0,61.261,47.652,110.923,106.436,110.923
+		c58.783,0,106.436-49.662,106.436-110.923c0-61.262-47.653-110.924-106.436-110.924
+		C434.736,133.475,387.084,183.137,387.084,244.399"/>
+	<path clip-path="url(#SVGID_2_)" fill="#0eb4fe" d="M311.069,108.398c0,59.866,46.567,108.397,104.012,108.397
+		c57.444,0,104.011-48.531,104.011-108.397c0-59.866-46.567-108.397-104.011-108.397C357.636,0.001,311.069,48.532,311.069,108.398"
+		/>
+	<path clip-path="url(#SVGID_2_)" fill="#0eb4fe" d="M445.732,244.399c0-65.482-50.936-118.566-113.769-118.566
+		s-113.768,53.084-113.768,118.566s50.935,118.565,113.768,118.565S445.732,309.881,445.732,244.399"/>
+	<path clip-path="url(#SVGID_2_)" fill="#0eb4fe" d="M528.849,362.965c0-65.482-50.936-118.565-113.769-118.565
+		s-113.769,53.083-113.769,118.565S352.247,481.53,415.08,481.53S528.849,428.447,528.849,362.965"/>
+	
+		<path clip-path="url(#SVGID_2_)" fill="none" stroke="#107bfd" stroke-width="14.366" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+		M415.081,688.533V163.491V688.533z"/>
+</g>
+</svg>
