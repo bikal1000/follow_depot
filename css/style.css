@@ -89,6 +89,7 @@ p{
     overflow-x: hidden;
     overflow-y: auto;
     width: 100%;
+    font-family:'Solomon-Sans';
     font-weight:400;
     font-size:14px;
 }
