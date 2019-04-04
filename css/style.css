@@ -844,6 +844,12 @@ p{
 
 /*Support Page Styling*/
 /*FAQ Section*/
+.homebanner_support::after{
+    display:none;
+}
+.homebanner_support::before{
+    display:none;
+}
 .faq-section{
     padding:50px 0;
 }
@@ -916,6 +922,15 @@ p{
 }
 
 /*request-support section*/
+.request-wrapper{
+    position:relative;
+}
+.request-banner{
+    position: absolute;
+    left: 20px;
+    width: 615px;
+    top: 28px;
+}
 .request-support{
     padding:80px 0;
     background: linear-gradient(to right, #2f9bfd , #0988fb);
@@ -980,9 +995,12 @@ p{
 .getintouch{
     padding:80px 0 40px;
 }
+.getintouch h2{
+    margin-bottom:30px;
+}
 .contact-email{
-    font-size:16px;
-    color:;
+    font-size:17px;
+    text-decoration:underline;
 }
 .location-details{
     display:flex;
@@ -992,11 +1010,107 @@ p{
 .getintouch-title{
     margin-bottom:40px;
 }
+.first-place,.second-place{
+    text-align:left;
+}
 .first-place h4,.second-place h4{
     font-size: 17px;
     font-weight: 700;
-    color: #4c636d; 
+    color: #4c636d;
+    margin-bottom:20px;
+}
+.first-place p,.second-place p{
+    font-size:18px;
+    color: #4c636d;
 }
 .first-place{
     margin-right:60px;
+}
+.first-place span{
+    color:#3490ec;
+}
+
+
+/*Get Followed Section*/
+.getfollowed{
+    padding:140px 0;
+    background:linear-gradient(to right, #2f9bfd , #0988fb);
+}
+.getfollowed-content h2,.getfollowed-content p{
+    margin-bottom:25px;
+}
+.getfollowed-content h2{
+    color:#fff;
+}
+.getfollowed-content p{
+    color:#a3c8fc;
+    font-size: 18px; 
+}
+.getfollowed .btn-lime{
+    line-height:32px;
+    max-width:200px;
+    width:100%;
+}
+.getfollowed-wrapper{
+    position:relative;
+}
+.getfollowed-banner{
+    position: absolute;
+    top: -116px;
+    width: 1069px;
+    height: auto;
+    right: -30px;
+}
+
+
+
+/*Checkout Page CSS*/
+.checkout-banner::before{
+    content: "";
+    position: absolute;
+    left:20px;
+    background: url(../images/stand.svg) no-repeat scroll center top / contain;
+    bottom: 500px;
+    height: 310px;
+    width: 300px;
+    z-index: -1;
+}
+.checkout-field input,.checkout-field select,.checkout-field textarea{
+    background:#fff;
+}
+.controls{
+    margin:0 auto;
+}
+.form-shift label{
+    font-size:14px;
+    color:#495057;
+}
+.form-wrapper{
+    padding:160px 150px 110px;
+    background:#fff;
+    border-radius:8px;
+}
+.checkout-badge img{
+    width:140px;
+    height:140px;
+}
+.form-wrapper .btn-lime{
+    width:180px;
+    outline:none;
+    text-transform:uppercase;
+    font-size:14px;
+}
+.btn-mover{
+    text-align:right;
+}
+.next-step{
+    text-align:left;
+    color:#495057;
+    padding:0 60px;
+}
+.next-step p{
+    font-size:14px;
+}
+.form-shift input{
+    line-height:28px;
 }
