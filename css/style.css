@@ -102,6 +102,10 @@ p{
     line-height: 25px;
     border-radius: 8px;
 }
+.btn-lime:focus{
+    outline: 0 !important;
+    box-shadow: none !important;
+}
 .wholepage{
     position: relative;
     overflow-x: hidden;
@@ -169,6 +173,16 @@ p{
     margin: 0 auto;
     filter: sepia(77%) hue-rotate(190deg) saturate(500%);
 
+}
+.package-banner::after{
+    content: "";
+    position: absolute;
+    left: -40px;
+    background: url(../images/pack_ban.png) no-repeat scroll center top / contain;
+    bottom: -15px;
+    height: 310px;
+    width: 300px;
+    z-index: -1;
 }
 .banner-container {
     position: relative;
