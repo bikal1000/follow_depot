@@ -839,13 +839,11 @@ p{
 }
 .faq-title{
     text-align:center;
+    margin-bottom:80px;
 }
 .faq-title p{
     color: #6c6e73;
     font-size: 18px;
-}
-.faq-title{
-    margin-bottom:80px;
 }
 .faq-title h2{
     margin-bottom:22px;
@@ -916,12 +914,14 @@ p{
     text-align:center;
 }
 .request-title p{
-    color: #6c6e73;
+    color: #a3c8fc;
     font-size: 18px;
 
 }
 .request-title h2{
     margin-bottom:22px;
+    color:#fff;
+    letter-spacing:1px;
 }
 .row-form{
     display:flex;
@@ -940,4 +940,53 @@ p{
 }
 .form-group .fa-style{
     color:#fff;
+}
+.form-holder .btn-lime{
+    margin:0 auto;
+    line-height: 40px;
+    max-width:240px;
+    width:100%;
+    font-size:14px;
+}
+.col-self{
+    text-align: center;
+}
+.form-group input,.form-group select{
+    line-height:48px;
+}
+.form-group input:focus,.form-group select:focus,.form-group textarea:focus{
+    box-shadow: 0 0 0 2px #51B5CF;
+}
+
+/*GetinTouch Section*/
+.getintouch-title{
+    text-align: center;
+
+}
+.getintouch-title p{
+    color: #6c6e73;
+    font-size: 18px;
+}
+.getintouch{
+    padding:80px 0 40px;
+}
+.contact-email{
+    font-size:16px;
+    color:;
+}
+.location-details{
+    display:flex;
+    text-align:center;
+    justify-content:center;
+}
+.getintouch-title{
+    margin-bottom:40px;
+}
+.first-place h4,.second-place h4{
+    font-size: 17px;
+    font-weight: 700;
+    color: #4c636d; 
+}
+.first-place{
+    margin-right:60px;
 }
