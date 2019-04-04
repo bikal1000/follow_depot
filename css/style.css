@@ -175,14 +175,14 @@ p{
 
 }
 .package-banner::after{
-    content: "";
+  content: "";
     position: absolute;
-    left: -40px;
     background: url(../images/pack_ban.png) no-repeat scroll center top / contain;
-    bottom: -15px;
-    height: 310px;
-    width: 300px;
+    bottom: -85px;
+    height: 580px;
+    width: 580px;
     z-index: -1;
+    left: 343px;
 }
 .banner-container {
     position: relative;
@@ -1127,4 +1127,39 @@ p{
 }
 .form-shift input{
     line-height:28px;
+}
+.chekout-form{
+    margin-top: 100px;
+    position: relative;
+}
+.schemebadge-check p{
+    font-family:'Campton';
+    font-size:40px;
+    line-height:0.8;
+    position: absolute;
+    top: 50px;
+    color: #fff;
+}
+.schemebadge-check p span{
+   font-size: 14px;
+    letter-spacing: 1px;
+    color: #fff;
+    padding-top: 20px;
+    font-weight: 400;
+}
+.schemebadge-check img{
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.schemebadge-check{
+    position: absolute;
+    left: 50%;
+    top: -60px;
+}
+.check_text{
+    display: flex;
+    justify-content: center;
 }
